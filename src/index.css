@@ -5,7 +5,9 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background: linear-gradient(to top, #0e2c49, #882828, #410f0f);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

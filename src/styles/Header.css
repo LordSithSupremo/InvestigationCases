@@ -1,0 +1,24 @@
+.header {
+    position: fixed; /* Fixa o header no topo */
+    top: 0; /* Garante que ele fique no topo */
+    left: 0; /* Garante que ele comece na borda esquerda */
+    right: 0; /* Garante que ele termine na borda direita */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0e2c49;
+    border-bottom: 1px solid #91b5da;
+    width: 100%; /* Preenche horizontalmente */
+    height: 10vh; /* Altura responsiva */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+    box-sizing: border-box; /* Inclui padding e border no cálculo do tamanho */
+    text-align: center;
+    opacity: 0.8;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}

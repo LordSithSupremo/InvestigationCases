@@ -1,0 +1,40 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    top: 80vh;
+    width: 100%;
+    height: auto;
+    background-color: #110f0f;
+    border-radius: 10px;
+    border: solid 2px #fbfd7d;
+}
+
+.about-txt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-weight: 500;
+}
+
+.about-img {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 40%;
+    margin: 20px;
+}
+.about-img2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    left: 40%;
+    margin: 20px;
+}

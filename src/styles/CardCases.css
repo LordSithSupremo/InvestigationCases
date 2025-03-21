@@ -1,0 +1,40 @@
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #0e1238;
+    background-color: #243e6e;
+    width: 300px;
+    color: white;
+    transition: 1.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
+
+.card-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-images img {
+    width: 300px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.card-description {
+    text-align: center;
+    margin: 10px;
+}

@@ -1,11 +1,14 @@
 import React from 'react';
 import '../styles/Hero.css';
+import background from '../assets/img/background4.jpg';
 
 const Hero = () => {
     return (
         <div className="hero">
-            <h1 className="hero-title">Hero Title</h1>
-            <p className="hero-description">This is a description for the hero component.</p>
+            <img  className="hero-img" src={background} alt="imagem de fundo da hero" />
+            <p className="hero-description">
+                Bem vindo ao <span className="invest">Investigation Cases!</span> Aqui você pode visualizar os casos de investigação.
+            </p>
         </div>
     );
 };

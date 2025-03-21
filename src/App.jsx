@@ -1,17 +1,37 @@
-import './App.css'
-import Hero from './components/Hero'
-import Cases from './components/Cases'
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Hero from './components/Hero';
+import Case from './routes/Case';
+import Header from './components/Header';
+import About from './components/About';
+import CasesDetails from './routes/CasesDetails';
+import Footer from './components/Footer';
 
-function App() {
-  
+const App = () => {
 
   return (
-    <>
-      <h1>Investigation Cases</h1>
-      <Hero />
-      <Cases />
-    </>
+    <Router>
+      <div className="app-container">
+        <Header />
+        <main className="content">
+          <Routes>
+            <Route path="/" element={
+              <>
+                <Hero />
+                <About />
+                <Case />
+              </>
+            } />
+            <Route path="/cases/:id" element={<CasesDetails />} />
+          </Routes>
+        </main>
+        
+      </div>
+    </Router>
+    
   )
 }
 
 export default App
+
+
