@@ -16,7 +16,7 @@ const About = () => {
                 </p>
                 <h2>Como fazer para desvendar nossos casos intrigantes?</h2>
                 <p>
-                    Em cada caso, haveram uma série de depoimentos e pistas que vocês deveram analisar para descobrir o que realmente aconteceu. Selecionem a opção que vocês acreditarem ser a correta e vejam se o verdadeiro culpado foi encontrado.
+                    Em cada caso, haveram uma série de depoimentos e pistas que vocês deverão analisar para descobrir o que realmente aconteceu. Selecionem a opção que vocês acreditarem ser a correta e vejam se o verdadeiro culpado foi encontrado.
                 </p>
                 <p>
                     Então mãos a obra, clique em um caso e comece a investigar!
