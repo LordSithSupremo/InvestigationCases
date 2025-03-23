@@ -8,7 +8,7 @@ const Case = () => {
             <div className="introduction">
             <h2>Elementar meu caro Whatson</h2>
                 <p>
-                    Os casos maais empolgantes e intrigantes estão aqui, prontos para serem desvendados por você e seus amigos. Escolham um e se divirtam!
+                    Os casos mais empolgantes e intrigantes estão aqui, prontos para serem desvendados por você e seus amigos. Escolham um e se divirtam!
                 </p>
             </div>
             <div className="cases-container">
