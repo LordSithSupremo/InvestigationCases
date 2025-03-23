@@ -4,9 +4,9 @@ Bem-vindo ao Projeto de Casos de Investigação, uma aplicação interativa onde
 ## 📋 Funcionalidades
 ## Página Inicial:
 
-° Exibe uma introdução ao projeto com o componente Hero.
-° Apresenta informações sobre o projeto no componente About.
-° Lista os casos disponíveis para investigação no componente Case.
+* Exibe uma introdução ao projeto com o componente Hero.
+* Apresenta informações sobre o projeto no componente About.
+* Lista os casos disponíveis para investigação no componente Case.
 
 **Detalhes do Caso:**
 
@@ -19,50 +19,36 @@ O layout foi projetado para se adaptar a diferentes tamanhos de tela, garantindo
 
 ## 🛠️ Tecnologias Utilizadas
 
-**React:** Biblioteca JavaScript para construção de interfaces de usuário.
-**React Router:** Gerenciamento de rotas para navegação entre páginas.
-**CSS:** Estilização personalizada para os componentes.
-**HTML5:** Estruturação do conteúdo.
-
-## 📂 Estrutura do Projeto
-
-  InvestigationCases/
-  ├── public/                # Arquivos públicos (HTML, ícones, etc.)
-  ├── src/                   # Código-fonte do projeto
-  │   ├── components/        # Componentes reutilizáveis (Header, Footer, Hero, etc.)
-  │   ├── routes/            # Páginas principais (Case, CasesDetails)
-  │   ├── styles/            # Arquivos CSS para estilização
-  │   ├── data/              # Dados fictícios dos casos
-  │   ├── App.jsx            # Componente principal da aplicação
-  │   ├── main.jsx           # Ponto de entrada do React
-  ├── package.json           # Dependências e scripts do projeto
-  └── README.md              # Documentação do projeto
+<p> <strong>React:</strong> Biblioteca JavaScript para construção de interfaces de usuário.</p>
+<p> <strong>React Router:</strong> Gerenciamento de rotas para navegação entre páginas.</p>
+<p> <strong>CSS:</strong> Estilização personalizada para os componentes.</p>
+<p> <strong>HTML5:</strong> Estruturação do conteúdo.</p>
 
 ## 🚀 Como Executar o Projeto
 
 ## Pré-requisitos
 
-  ° Node.js instalado (versão 14 ou superior).
-  ° Gerenciador de pacotes npm ou yarn.
+  * Node.js instalado (versão 14 ou superior).
+  * Gerenciador de pacotes npm ou yarn.
 
 **Passos para rodar o projeto:**
 
 **Clone o repositório:**
 
-  git clone [https://github.com/seu-usuario/projeto-casos-investigacao.git](https://github.com/LordSithSupremo/InvestigationCases.git)
-  cd projeto-casos-investigacao
+  - git clone [https://github.com/seu-usuario/projeto-casos-investigacao.git](https://github.com/LordSithSupremo/InvestigationCases.git)
+  - cd projeto-casos-investigacao
 
 **Instale as dependências:**
 
-  npm install
+  - npm install
 
 **Inicie o servidor de desenvolvimento:**
 
-  npm run dev
+  - npm run dev
 
 **Acesse no navegador:**
 
-  O projeto estará disponível em http://localhost:3000.
+  - O projeto estará disponível em http://localhost:3000.
 
 ## 📖 Como Usar
 
@@ -73,9 +59,9 @@ Explore os casos disponíveis clicando nos cards.
 
 **Detalhes do Caso:**
 
-Leia as informações detalhadas sobre o caso.
-Escolha um suspeito e envie sua dedução.
-Receba feedback sobre sua escolha (acerto ou erro).
+<p>Leia as informações detalhadas sobre o caso.</p>
+<p>Escolha um suspeito e envie sua dedução.</p>
+<p>Receba feedback sobre sua escolha (acerto ou erro).</p>
 
 ## 📱 Responsividade
 O projeto foi projetado para funcionar bem em dispositivos móveis, tablets e desktops. Elementos como botões, imagens e textos se ajustam automaticamente ao tamanho da tela.
