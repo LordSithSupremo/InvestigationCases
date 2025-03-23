@@ -10,9 +10,13 @@ const About = () => {
                 <img src={clue} alt="Pista de identificação da perícia" width={200} height={200}/>
             </div>
             <div className="about-txt">
+                <h2>Você é capaz de encontrar o culpado?</h2>
+                <p>
+                    Este é um projeto de investigação de casos fictícios, onde você e seus amigos devem prestar atenção a cada detalhe e duvidar de cada depoimento. Todos tem algo a esconder, e cabe a vocês descobrirem o que é.
+                </p>
                 <h2>Como fazer para desvendar nossos casos intrigantes?</h2>
                 <p>
-                    Este é um projeto de investigação de casos fictícios, onde você e seus amigos podem se juntarem para desvendarem os mistérios que envolvem cada caso, usando apenas de lógica e um pouco de intuição.
+                    Em cada caso, haveram uma série de depoimentos e pistas que vocês deveram analisar para descobrir o que realmente aconteceu. Selecionem a opção que vocês acreditarem ser a correta e vejam se o verdadeiro culpado foi encontrado.
                 </p>
                 <p>
                     Então mãos a obra, clique em um caso e comece a investigar!

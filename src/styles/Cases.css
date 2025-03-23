@@ -27,3 +27,10 @@
 .introduction {
     font-weight: 500;
 }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .case-card {
+        width: 90%;
+    }
+}

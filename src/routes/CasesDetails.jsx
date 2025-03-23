@@ -48,7 +48,7 @@ const CasesDetails = () => {
             <div className="form-buttons">
             <button
                     onClick={() => {
-                        window.location.href = `/`; // Redirect to home
+                        window.location.href = `/`; // Redireciona para a pagina inicial
                     }}
                     style={{ marginRight: "10px", padding: "10px 20px" }}
                 >
@@ -60,7 +60,7 @@ const CasesDetails = () => {
                 <button
                     onClick={() => {
                         const nextCaseId = parseInt(id) + 1;
-                        window.location.href = `/cases/${nextCaseId}`; // Redirect to next case
+                        window.location.href = `/cases/${nextCaseId}`; // Redireciona para o próximo caso
                     }}
                     style={{ padding: "10px 20px" }}
                 >

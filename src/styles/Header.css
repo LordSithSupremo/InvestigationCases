@@ -22,3 +22,23 @@
     font-weight: bold;
     color: #fff;
 }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .title {
+        font-size: .9rem;
+        padding: 0;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+}

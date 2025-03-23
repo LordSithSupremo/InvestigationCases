@@ -34,3 +34,15 @@ footer .social-icons a {
 footer .social-icons a:hover {
     color: #1e90ff;
 }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    footer {
+        font-size: 12px;
+        padding: 15px 0;
+    }
+
+    footer .social-icons a {
+        font-size: 16px;
+    }
+}

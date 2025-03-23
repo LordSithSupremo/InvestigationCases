@@ -24,3 +24,18 @@
     color: #8a1414;
     text-shadow: #3b0707 2px 1.3px 1px;
 }
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .hero {
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}

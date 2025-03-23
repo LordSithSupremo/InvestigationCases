@@ -1,11 +1,20 @@
 // LOCAL ONDE SERÁ ARMAZENADO OS DADOS DOS CASOS
+import clock from '../assets/img/brokenClock-1.jpg';
 import crime from '../assets/img/crime-scene.jpg';
+import missing from '../assets/img/MissingPerson-3.jpg';
+import fullMoon from '../assets/img/fullmoon-4.jpg';
+import blackRiver from '../assets/img/blackriver-5.jpg';
+import house from '../assets/img/house-6.webp';
+import circus from '../assets/img/circus-7.jpg';
+import puzzle from '../assets/img/puzzle-8.png';
+import colection from '../assets/img/colecionador-9.jpg';
+
 
 export const cases = [
     {
         id: 1,
         title: 'O Mistério do Relógio Quebrado',
-        image: `${crime}`,
+        image: `${clock}`,
         suspects: [
             "Carlos Almeida: O patriarca da família, conhecido por ser meticuloso e protetor com a coleção.",
             "Isabel Almeida: A esposa de Carlos, que adora organizar festas na mansão.",
@@ -56,7 +65,7 @@ export const cases = [
     {
         id: 3,
         title: 'O Desaparecimento da Herdeira',
-        image: `${crime}`,
+        image: `${missing}`,
         suspects: [
             "Laura Moreira: A herdeira da família, uma jovem de 28 anos, conhecida por seu estilo de vida extravagante e por ser bastante reservada.",
             "Marcos Moreira: O marido de Laura, um empresário bem-sucedido, mas com dívidas recentes devido a investimentos fracassados.",
@@ -81,7 +90,7 @@ export const cases = [
     {
         id: 4,
         title: 'O Ritual da Lua Cheia',
-        image: `${crime}`,
+        image: `${fullMoon}`,
         suspects: [
             "Eduardo Silva: A vítima, um jovem que recentemente retornou à cidade após estudar em uma grande cidade. Ele era cético em relação às superstições locais.",
             "Marta Silva: Mãe de Eduardo, uma mulher profundamente religiosa e seguidora das tradições locais.",
@@ -106,7 +115,7 @@ export const cases = [
     {
         id: 5,
         title: 'A Maldição do Rio Negro',
-        image: `${crime}`,
+        image: `${blackRiver}`,
         suspects: [
             "Ana Lúcia: A vítima mais recente, uma jovem de 22 anos que trabalhava na fazenda da família. Ela era conhecida por sua curiosidade sobre as lendas locais.",
             "Sebastião: O líder da comunidade, um homem carismático que sempre desencorajou os moradores a investigarem as lendas do rio.",
@@ -131,7 +140,7 @@ export const cases = [
     {
         id: 6,
         title: 'A Casa dos Sussurros',
-        image: `${crime}`,
+        image: `${house}`,
         suspects: [
             "Carlos: A vítima, um explorador urbano que estava documentando a mansão.",
             "Elena: Uma historiadora local que estudava a mansão e suas lendas.",
@@ -154,7 +163,7 @@ export const cases = [
     {
         id: 7,
         title: 'O Circo das Sombras',
-        image: `${crime}`,
+        image: `${circus}`,
         suspects: [
             "Victor: O mágico morto, conhecido por seus truques perigosos.",
             "Clara: A assistente de Victor, que desapareceu após o crime.",
@@ -173,6 +182,58 @@ export const cases = [
         description: "Um circo itinerante chegou à cidade, mas após a primeira apresentação, o mágico principal, Victor, foi encontrado morto em seu trailer. O corpo apresentava marcas de queimaduras e um bilhete com a palavra 'Traidor' escrito em sangue.",
         guilty: "Clara",
         motivation: " Ela matou Victor por ciúmes, já que ele estava envolvido com Mariana. Ela trancou o trailer por dentro para criar a ilusão de um crime impossível."
+    },
+    {
+        id: 8,
+        title: "O Quebra-Cabeça do Serial Killer",
+        image: `${puzzle}`,
+        description: "Em uma grande cidade, uma série de assassinatos brutais está aterrorizando a população. As vítimas parecem não ter conexão entre si: um estudante, uma enfermeira, um empresário e um artista. No entanto, a polícia começa a suspeitar que os crimes estão ligados por um padrão sinistro. No dia 23 de março de 2025, a quarta vítima, Carlos, um artista de rua, foi encontrado morto em seu estúdio. O assassino deixou uma pista enigmática no local: um quebra-cabeça incompleto com peças faltando.",
+        suspects: [
+            "Carlos: A quarta vítima, um artista de rua conhecido por suas obras controversas.",
+            "Inspetora Ana: A detetive encarregada do caso, especializada em crimes seriais.",
+            "Dr. Lucas: Um psicólogo criminal que está ajudando a polícia a traçar o perfil do assassino.",
+            "Mariana: A ex-namorada de Carlos, que tinha uma relação conturbada com ele.",
+            "Rafael: Um colega de Carlos que trabalhava com ele no estúdio.",
+            "Isabel: Uma jornalista investigativa que está cobrindo o caso."
+        ],
+        info: [
+            "1. Cada vítima foi morta de uma maneira diferente: envenenamento, estrangulamento, esfaqueamento e afogamento.",
+            "2. O assassino deixou um quebra-cabeça incompleto em cada cena do crime, com peças faltando.",
+            "3. As vítimas parecem não ter conexão entre si, mas todas frequentaram o mesmo parque público nos últimos meses.",
+            "4. O quebra-cabeça encontrado no estúdio de Carlos tinha uma peça faltando com a inscrição 'O próximo está mais perto do que você imagina'.",
+            "5. A inspetora Ana descobriu que todas as vítimas haviam recebido uma mensagem anônima dias antes de morrer, com a frase: 'Você é a peça que falta'.",
+            "6. Rafael mencionou que Carlos estava assustado antes de morrer, mas não quis falar sobre o motivo.",
+            "7. Isabel encontrou uma foto antiga no estúdio de Carlos, mostrando ele e as outras vítimas juntas em um evento no parque.",
+        ],
+        weapon: "",
+        guilty: "Dr. Lucas",
+        motivation: "Ele escolheu as vítimas com base em um evento traumático que ocorreu no parque, onde ele perdeu um ente querido. As vítimas estavam presentes no evento e, de alguma forma, estão ligadas à tragédia. Dr. Lucas está usando os quebra-cabeças como uma metáfora para sua 'obra de arte' de vingança, onde cada vítima é uma peça que ele precisa eliminar para completar seu plano."
+    },
+    {
+        id: 9,
+        title: "O Colecionador de Almas",
+        image: `${colection}`,
+        description: "Em uma cidade costeira, uma série de assassinatos brutais está ocorrendo, e o assassino sempre remove o coração das vítimas. As vítimas parecem não ter conexão entre si: um pescador, uma estudante, um médico e um artista. No entanto, a polícia começa a suspeitar que os crimes estão ligados por um padrão oculto. No dia 25 de março de 2025, a quarta vítima, Marina, uma artista plástica, foi encontrada morta em seu estúdio. O assassino deixou uma caixa de veludo contendo o coração de Marina e uma nota: 'Mais uma alma para minha coleção'.",
+        suspects: [
+            "Marina: A quarta vítima, uma artista plástica conhecida por suas obras sombrias e introspectivas.",
+            "Inspetor Carlos: O detetive encarregado do caso, especializado em crimes violentos.",
+            "Dr. Ricardo: Um patologista que está ajudando a polícia a analisar as cenas do crime.",
+            "Lucas: O ex-namorado de Marina, que tinha uma relação conturbada com ela.",
+            "Rafael: Um galerista que representava Marina e outras vítimas.",
+            "Isabel: Uma colega de Marina que trabalhava com ela no estúdio."
+        ],
+        info: [
+            "1. Cada vítima foi morta de uma maneira diferente: afogamento, envenenamento, esfaqueamento e estrangulamento.",
+            "2. O assassino removeu o coração de cada vítima e o colocou em uma caixa de veludo, deixando-a no local do crime.",
+            "3. As vítimas parecem não ter conexão entre si, mas todas haviam participado de uma exposição de arte há seis meses.",
+            "4. A caixa de veludo encontrada no estúdio de Marina tinha uma inscrição: 'A arte imita a vida, e a vida imita a morte'.",
+            "5. O inspetor Carlos descobriu que todas as vítimas haviam recebido uma carta anônima semanas antes de morrer, com a frase: 'Sua alma será minha obra-prima'.",
+            "6. Isabel mencionou que Marina estava assustada antes de morrer, mas não quis falar sobre o motivo.",
+            "7. Rafael encontrou uma foto antiga no estúdio de Marina, mostrando ela e as outras vítimas juntas na exposição de arte.",
+        ],
+        weapon: "",
+        guilty: "Rafael",
+        motivation: " Ele escolheu as vítimas com base em sua participação na exposição de arte, onde ele ficou obcecado pela ideia de transformar suas vidas em 'obras-primas' através da morte. Rafael está removendo os corações das vítimas como uma forma de colecionar suas almas, vendo cada assassinato como uma peça de arte."
     },
     
 ]
